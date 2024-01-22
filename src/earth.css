@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.main-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+#chartdiv {
+  width: 100%;
+  background-color: #0c4ffc;
+}
+
+/* slider CSS */
+
+.AmazonForest {
+  color: white;
+  font-size: 36px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.himalaya {
+  color: white;
+  font-size: 36px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.newyork {
+  color: white;
+  font-size: 36px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Amazon {
+  margin-right: 40px;
+  text-align: end;
+}
+
+.Himalaya {
+  margin-right: 40px;
+  text-align: end;
+}
+
+.NewYorkCity {
+  margin-right: 40px;
+  text-align: end;
+}
+
+.IconParkDot {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.Slider {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sliderSubCon {
+  display: flex;
+}
+
+.vector-con {
+  position: relative;
+  margin-top: 16px;
+}
+
+.Vector {
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.Line6 {
+  height: 100%;
+  width: 1px;
+  background-color: white;
+  position: absolute;
+  left: 48%;
+  top: 25px;
+}
+
+.amazonthumb {
+  width: 315px;
+  height: 160px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.himalayathumb {
+  width: 315px;
+  height: 160px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.newyorkthumb {
+  width: 315px;
+  height: 160px;
+  cursor: pointer;
+  border-radius: 20px;
+}
